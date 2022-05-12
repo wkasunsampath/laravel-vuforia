@@ -83,6 +83,14 @@ $target->active = false;
 
 ### Configurable
 
+You can publish the config file to config dir using the following command.
+
+```shell
+php artisan vendor:publish --tag=laravel_vuforia
+```
+
+This command will geneate laravel_vuforia.php file in config dir. It will look like below,
+
 ```php
 [
     /*
