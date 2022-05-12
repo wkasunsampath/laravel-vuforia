@@ -31,7 +31,7 @@
                 "WKasunSampath\\LaravelVuforia\\VuforiaWebServiceProvider"
             ],
             "aliases": {
-                "VWS": "WKasunSampath\\LaravelVuforia\\Facade\\VuforiaWebService"
+                "VWS": "WKasunSampath\\LaravelVuforia\\Facades\\VuforiaWebService"
             }
         }
     }
