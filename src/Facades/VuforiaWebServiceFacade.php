@@ -13,6 +13,6 @@ class VuforiaWebService extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return \Panoscape\Vuforia\VuforiaWebService::class;
+        return \WKasunSampath\LaravelVuforia\VuforiaWebService::class;
     }
 }
