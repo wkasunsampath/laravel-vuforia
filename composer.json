@@ -1,0 +1,38 @@
+{
+    "name": "wkasunsampath/laravel-vuforia",
+    "description": "Vuforia web service API for Laravel",
+    "keywords": [
+        "laravel",
+        "vuforia",
+        "ar",
+        "augmented-reality",
+        "api"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "WKasunSampath\\LaravelVuforia\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "W Kasun Sampath",
+            "email": "wkasunsampath@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "illuminate/support": ">=8.0.0",
+        "pear/http_request2": "^2.4.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WKasunSampath\\LaravelVuforia\\VuforiaWebServiceProvider"
+            ],
+            "aliases": {
+                "VWS": "WKasunSampath\\LaravelVuforia\\Facade\\VuforiaWebService"
+            }
+        }
+    }
+}
