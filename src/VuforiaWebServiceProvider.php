@@ -29,7 +29,7 @@ class VuforiaWebServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/config/laravel_vuforia.php' => config_path('laravel_vuforia.php'),
-        ], 'config');
+        ], 'laravel_vuforia');
 
         $this->publishes([
             __DIR__ . '/stubs/VuforiaJob.stub' => app_path('Jobs/VuforiaJob.php'),
