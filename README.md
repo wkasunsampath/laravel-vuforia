@@ -56,7 +56,7 @@ VWS::addTarget(['name' => '1231', 'width' => 100, 'path' => public_path('storage
 ### Image Target Class
 
 ```php
-$target = new \Panoscape\Vuforia\Target;
+$target = new \WKasunSampath\LaravelVuforia\Target;
 $target->name = 'image_01';
 $target->width = 320;
 $target->image = file_get_contents(public_path('images/001.jpg'));
